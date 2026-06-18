@@ -4,7 +4,7 @@ Fill in your answers below each question. Leave a question blank if you'd rather
 
 ## What is your name?
 
-<!-- your answer -->Laszlo
+<!-- your answer -->
 
 ## What is your role or job title?
 
