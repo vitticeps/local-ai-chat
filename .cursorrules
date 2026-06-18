@@ -1,0 +1,10 @@
+# Cursor Rules — local-ai-chat
+
+See `ai-instructions.md` for the full chat format.
+
+When the user says "you go" or similar:
+1. Read the active chat `.md` file.
+2. Find the last `## ME` block.
+3. Append your response as `## AI (Cursor/{model}) @ {YYYY-MM-DD}` with every line quoted using `>`.
+4. Save any code to `snippets/<name>.<ext>` next to the chat file (one snippet per file).
+5. End with a blank `## ME` line.

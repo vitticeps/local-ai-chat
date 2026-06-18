@@ -1,0 +1,19 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & temp
+*.log
+*.tmp
+
+# Personal context — uncomment to exclude from git
+# context/
+# context/user.md
+# context/personality.md
+# context/projects/
