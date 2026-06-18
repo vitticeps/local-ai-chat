@@ -1,6 +1,6 @@
 # Project Context — example-project
 
-Rename this file to match your project (e.g. `my-startup.md`, `holidayextras.md`). Add one file per project.
+Rename this file to match your project (e.g. `my-startup.md`, `holidayextras.md`).
 
 ## What is the project or company name?
 
