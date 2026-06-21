@@ -58,10 +58,11 @@ At the start of any conversation, read all context files that exist. They are op
 
 ```
 context/
-  user.md             # who the user is, their role, preferences, expertise
-  personality.md      # how the AI should behave: tone, verbosity, style
+  user.md                        # who the user is, their role, preferences, and personality/style prefs
+chats/
   projects/
-    <name>.md         # one file per project or business (load all of them)
+    <project-name>/
+      base.md                    # one folder per project; base.md holds project context
 ```
 
 Each file is a Q&A — a question as a heading, the user's answer below. Use the answers to tailor every response.
@@ -75,14 +76,14 @@ Each file is a Q&A — a question as a heading, the user's answer below. Use the
 ```
 context/
   user.md
-  personality.md
-  projects/
-    <name>.md
 chats/
-  initial.md          # bootstrap / onboarding chat
-  <topic>/            # sub-folders for topic groupings
+  initial.md                     # bootstrap / onboarding chat
+  <topic>/                       # sub-folders for topic groupings
     <chat>.md
-  snippets/           # code snippets referenced from chat files
+  projects/
+    <project-name>/
+      base.md                    # project context
+  snippets/                      # code snippets referenced from chat files
 ```
 
 ---
